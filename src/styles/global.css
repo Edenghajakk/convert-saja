@@ -1,0 +1,13 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply m-0 bg-light-gray;
+}
+
+.container-height {
+  height: calc(100vh - 152px);
+}
+
+@tailwind utilities;
