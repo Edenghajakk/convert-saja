@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Convert Saja`,
+    title: `Convert Saja, converter best suited for TailwindCSS`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@warifmust`,
   },
