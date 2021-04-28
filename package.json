@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@headlessui/react": "^1.1.0",
+    "@heroicons/react": "^1.0.1",
     "autoprefixer": "^10.2.1",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -21,6 +23,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "sharp": "^0.28.1",
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
@@ -35,7 +38,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port 8181",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

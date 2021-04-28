@@ -10,4 +10,8 @@ body {
   height: calc(100vh - 152px);
 }
 
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 @tailwind utilities;
