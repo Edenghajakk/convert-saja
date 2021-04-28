@@ -129,7 +129,7 @@ const IndexPage: React.FC = () => {
                 bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none"
                         />
                       </div>
-                      <div className="bg-light-green rounded-lg border-2 m-auto">
+                      <div className="bg-light-green rounded-lg border-2 m-auto mb-0 shadow-md">
                         {unit === "px" ? (
                           <ChevronRightIcon
                             className="h-auto w-10 text-gray-400 cursor-pointer"
@@ -144,11 +144,6 @@ const IndexPage: React.FC = () => {
                           />
                         )}
                       </div>
-                      {/* <MenuAlt4Icon
-                        className="h-auto w-10 text-gray-400 cursor-pointer"
-                        aria-hidden="true"
-                        onClick={toggleUnit}
-                      /> */}
                       <div className="mx-4">
                         <span className="px-1 text-sm text-gray-600">
                           {unit === "px" ? "Rem" : "Pixel"}
@@ -170,7 +165,7 @@ const IndexPage: React.FC = () => {
                               Assigned to
                             </Listbox.Label>
                             <div className="mt-1 relative">
-                              <Listbox.Button className="relative w-full bg-white border-2 border-gray-300 rounded-lg shadow-sm pl-3 pr-10 py-2 text-left cursor-pointer focus:outline-none  focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                              <Listbox.Button className="relative w-full bg-white border-2 border-gray-300 rounded-lg shadow-md pl-3 pr-10 py-2 text-left cursor-pointer focus:outline-none  focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                                 <span className="flex items-center">
                                   <img
                                     src={selected.avatar}
@@ -262,7 +257,7 @@ const IndexPage: React.FC = () => {
                   </form>
                   <div className="m-4 text-center">
                     <div className="font-bold text-xl mb-4">Results:</div>
-                    <div className="flex justify-between p-2 border border-solid border-main bg-light-green rounded-lg">
+                    <div className="flex justify-between p-2 border-2 border-solid border-main bg-light-green rounded-lg shadow-xl">
                       <input
                         type="text"
                         value={twClass}
